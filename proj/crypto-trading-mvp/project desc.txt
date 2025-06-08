@@ -1,0 +1,32 @@
+python -m uvicorn app.main:app --reload
+
+
+ == Crypto Trading Platform MVP Requirements ==
+
+ -- Tech Stack --
+Backend: Python (FastAPI), PostgreSQL, Redis, Celery
+Frontend: React / Next.js
+Realtime: WebSockets
+DevOps: Docker, Docker Compose
+
+ -- Core Functionalities --
+User registration and login (JWT-based)
+View market prices and order book
+Place and cancel buy/sell orders
+Match orders (basic engine)
+Trade history
+Mock wallet balances
+Admin monitor interface
+
+ -- Limitations --
+No fiat or real money handling
+No production-grade scaling
+Minimal security (JWT only)
+No deep analytics
+
+ -- Future Features --
+KYC integration
+Notifications (email/webhook)
+Multi-pair support
+Full audit logs
+
